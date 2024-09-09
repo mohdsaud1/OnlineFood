@@ -17,7 +17,7 @@ app.use('/', (req,res)=>{
 });
 
 
-const Port = 3030;
+const Port = 3000;
 app.listen(Port,()=>{
   console.log('Run..');
 })
